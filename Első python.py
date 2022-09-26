@@ -1,0 +1,13 @@
+import os
+print('Hello, ' , os.getlogin() , '! How are you?',      sep="\n"    )
+print("10.D")
+print()
+print()
+print('10.D')
+print(35)
+print(3.67)
+print(15 + 12 - 2 * 3)
+print(5 == 5)
+print(6 == 5)
+print(True)
+print([1, 2, 3])
