@@ -12,6 +12,16 @@ def oszzegzes_tetele(lista_oszegzes):
 
 def eldontes_tetele(lista_eldontes):
 
+    talalat = False
+    index = 0
+    while index < len(lista_eldontes) and not talalat:
+	      if lista_eldontes[index] % 3 == 0:
+		        talalat = True
+	      index = index + 1
+
+    print('A hárommal osztható szám indexe a listában: ', index-1)
+    
+
 
 oszzegzes_tetele(lista1)
 oszzegzes_tetele(lista2)    
